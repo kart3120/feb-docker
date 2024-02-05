@@ -6,9 +6,9 @@ pipeline {
         maven "mymaven"
     }
     environment{
-        BUILD_SERVER='ec2-user@172.31.32.74'
+        BUILD_SERVER='ec2-user@172.31.47.196'
         IMAGE_NAME='devopstrainer/java-mvn-privaterepos'
-        DEPLOY_SERVER='ec2-user@172.31.36.167'
+        DEPLOY_SERVER='ec2-user@172.31.34.43'
     }
     stages {
         stage('Compile') {
